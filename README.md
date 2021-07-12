@@ -25,17 +25,23 @@
 
 - 从远程仓库拉取代码
 
-
+`git clone https://github.com/asceyan/ApiTestFrame.git`
 
 - 安装依赖包
 
 ```pip3 install -r requirements.txt -i https://pypi.douban.com/simple```
 
-- 运行demo
-
 ### 编写用例
 
+查看case目录下用例示例
 
+- 普通用例编写
+
+![image-20210712215014359](C:/Users/AsceYan/AppData/Roaming/Typora/typora-user-images/image-20210712215014359.png)
+
+- 实现测试用例参数化
+
+![image-20210712215034811](C:/Users/AsceYan/AppData/Roaming/Typora/typora-user-images/image-20210712215034811.png)
 
 ### 运行用例
 
