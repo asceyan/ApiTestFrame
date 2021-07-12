@@ -6,8 +6,6 @@
 
 ### 目录结构
 
-![image-20210712114215715](images/image-20210712114215715.png)
-
 | 项目结构    | 说明                                         |
 | :---------- | :------------------------------------------- |
 | case        | 用例层，存放测试用例                         |
@@ -31,46 +29,28 @@
 
 ```pip3 install -r requirements.txt -i https://pypi.douban.com/simple```
 
-### 编写用例
+#### 编写用例
 
 查看case目录下用例示例
 
-- 普通用例编写
+- `test_url.py`普通用例编写示例
 
-![image-20210712215014359](C:/Users/AsceYan/AppData/Roaming/Typora/typora-user-images/image-20210712215014359.png)
+- `test_login.py`实现测试用例参数化示例
 
-- 实现测试用例参数化
-
-![image-20210712215034811](C:/Users/AsceYan/AppData/Roaming/Typora/typora-user-images/image-20210712215034811.png)
-
-### 运行用例
+#### 运行用例
 
 - 执行项目根目录下的run.py文件，执行全部测试用例
 
-![image-20210712170417491](images/image-20210712170417491.png)
-
 - 执行结束后，在report\allure_report目录下查看测试报告
 
-![image-20210712170402169](images/image-20210712170402169.png)
+- 在命令行中使用指令`pytest -s --env test --alluredir ./report/allure_result --clean`
 
-- 在命令行中使用指令pytest -s --env test --alluredir ./report/allure_result --clean
+  - 参数说明：
+    - --env：自定义参数，可一键修改测试环境地址
+    - --alluredir： 设置生成allure数据的路径
 
-![image-20210712170710760](images/image-20210712170710760.png)
+#### 报告展示
 
-- 参数说明：
-  - --env：自定义参数，可一键修改测试环境地址
-
-  ![image-20210712171204491](images/image-20210712171204491.png)
-
-  - --alluredir： 设置生成allure数据的路径
-
-### 报告展示
-
-![image-20210712170325189](images/image-20210712170325189.png)
-
-![image-20210712170344126](images/image-20210712170344126.png)
-
-
-
+查看report/allure_report目录下`index.html`文件
 
 
