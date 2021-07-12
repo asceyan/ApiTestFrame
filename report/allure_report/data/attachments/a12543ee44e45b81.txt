@@ -1,0 +1,3 @@
+INFO     APIBase:api_base.py:15 Method [login_api] is running !
+INFO     Request:http_request.py:61 Request sent successfully, method:[post], url:[http://47.96.25.229:7300/mock/60e29c972b9d72001731a419/test/login], headers:{'Content-Type': 'application/x-www-form-urlencoded'}, data:{'username': 'admin', 'password': '111111'}
+INFO     Request:http_request.py:77 Interface response successful, response message:{'status_code': 200, 'response_body': {'code': 1, 'data': 'login failed: admin'}, 'elapsed_time': 0.029137}

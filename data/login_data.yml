@@ -1,0 +1,17 @@
+login_data:
+    - [{'username': 'admin', 'password': '123456'}, {'code': 0, 'data': 'login success'},
+       "输入正确username、password，验证用户登录成功"]
+    - [{'username': 'admin', 'password': '111111'}, {'code': 1, 'data': 'login failed'},
+       "输入正确username、错误password，验证用户登录失败"]
+    - [{'username': 'admin', 'password': ' '}, {'code': 1, 'data': 'login failed'},
+       "输入正确username、输入password为空，验证用户登录失败"]
+    - [{'username': 'admin1', 'password': '111111'}, {'code': 1, 'data': 'login failed'},
+       "输入错误username、password，验证用户登录失败"]
+    - [{'username': '', 'password': ''}, {'code': 1, 'data': 'login failed'},
+       "输入username、password为空，验证用户登录失败"]
+
+
+
+
+
+

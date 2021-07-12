@@ -1,0 +1,81 @@
+[ {
+  "uid" : "1c77d104023869c8",
+  "name" : "参数id=1，获取淘宝url",
+  "time" : {
+    "start" : 1626082567784,
+    "stop" : 1626082567826,
+    "duration" : 42
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50908f17f0871f23",
+  "name" : "参数id=3，获取bing的url",
+  "time" : {
+    "start" : 1626082567866,
+    "stop" : 1626082567898,
+    "duration" : 32
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ded9b570d1ac948f",
+  "name" : "输入正确username、错误password，验证用户登录失败",
+  "time" : {
+    "start" : 1626082567512,
+    "stop" : 1626082567542,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26dadaa49a95b31d",
+  "name" : "输入正确username、password，验证用户登录成功",
+  "time" : {
+    "start" : 1626082567460,
+    "stop" : 1626082567505,
+    "duration" : 45
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8950808ac2927a21",
+  "name" : "输入username、password为空，验证用户登录失败",
+  "time" : {
+    "start" : 1626082567630,
+    "stop" : 1626082567670,
+    "duration" : 40
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d1653e86ef7be36",
+  "name" : "输入正确username、输入password为空，验证用户登录失败",
+  "time" : {
+    "start" : 1626082567548,
+    "stop" : 1626082567581,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "691b5d12c6ffe369",
+  "name" : "输入错误username、password，验证用户登录失败",
+  "time" : {
+    "start" : 1626082567587,
+    "stop" : 1626082567624,
+    "duration" : 37
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "223e2a5ddf5f10e9",
+  "name" : "参数id=2，获取百度url",
+  "time" : {
+    "start" : 1626082567830,
+    "stop" : 1626082567863,
+    "duration" : 33
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
